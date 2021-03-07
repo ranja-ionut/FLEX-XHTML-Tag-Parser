@@ -1,0 +1,97 @@
+html :: xmlns : http://www.w3.org/1999/xhtml ; xml:lang : en ;
+ head
+  title
+  link :: rel : stylesheet ; type : text/css ; href : /assets/9793e882/tabpanel.css ;
+  link :: rel : stylesheet ; type : text/css ; href : /themes/Verde/alphacube.css ;
+  link :: rel : stylesheet ; type : text/css ; href : /themes/Verde/default.css ;
+  link :: rel : stylesheet ; type : text/css ; href : /themes/Verde/main.css ;
+  link :: rel : stylesheet ; type : text/css ; href : /themes/Verde/tab2panel.css ;
+  script :: type : text/javascript ; xml:space : preserve ;
+  script :: type : text/javascript ; xml:space : preserve ;
+  script :: type : text/javascript ; xml:space : preserve ;
+ body :: class : layout ;
+  form :: id : ctl0_FForm ; method : post ; action : /index.php?page=Informatii&amp;ActiveViewID=tab_infogen ; style : height:100%; ;
+   script :: type : text/javascript ; src : /assets/35027966/min/prototype-1.7/prototype.js ; xml:space : preserve ;
+   script :: type : text/javascript ; src : /assets/35027966/min/scriptaculous-1.9.0/builder.js ; xml:space : preserve ;
+   script :: type : text/javascript ; src : /assets/35027966/min/prado/prado.js ; xml:space : preserve ;
+   script :: type : text/javascript ; src : /assets/35027966/min/prado/scriptaculous-adapter.js ; xml:space : preserve ;
+   script :: type : text/javascript ; src : /assets/35027966/min/prado/controls/controls.js ; xml:space : preserve ;
+   script :: type : text/javascript ; src : /assets/35027966/min/scriptaculous-1.9.0/effects.js ; xml:space : preserve ;
+   script :: type : text/javascript ; src : /assets/3ce0c285/jquery.min.js ; xml:space : preserve ;
+   script :: type : text/javascript ; src : /assets/3ce0c285/toolsq.php ; xml:space : preserve ;
+   script :: type : text/javascript ; src : /assets/3ce0c285/window.js ; xml:space : preserve ;
+   script :: type : text/javascript ; src : /assets/3ce0c285/tooltip.js ; xml:space : preserve ;
+   script :: type : text/javascript ; xml:space : preserve ;
+   div :: id : outer ;
+    div :: id : sidebar ; class : sidebar ;
+     a :: href : index.php ; title : Studenţi UPB ;
+      img :: src : /themes/Verde/images/logo.jpg ; width : 239 ; height : 111 ; alt : Studenţi UPB ;
+     div :: class : login ; id : ctl0_ctl12_ctl0 ;
+      b
+      br
+      div
+       span :: id : ctl0_ctl12_ValidatorIncorecte ; style : display:none;color:red; ;
+       span :: id : ctl0_ctl12_ValidatorIP ; style : display:none;color:red; ;
+       br
+       div :: style : float:right; ;
+        input :: name : ctl0$ctl12$Username ; type : text ; maxlength : 256 ; id : ctl0_ctl12_Username ; accesskey : u ; class : textbox ;
+       span :: id : ctl0_ctl12_ctl2 ; style : display:none;color:red; ;
+       br
+       br
+       br
+       span :: id : ctl0_ctl12_ctl3 ; style : display:none;color:red; ;
+       input :: name : ctl0$ctl12$Password ; type : password ; maxlength : 256 ; id : ctl0_ctl12_Password ; accesskey : p ; class : textbox ;
+      br
+      div
+      div :: style : float:right; ;
+       input :: type : image ; name : ctl0$ctl12$LoginButton ; id : ctl0_ctl12_LoginButton ; src : /themes/Verde/images/button-login.gif ; alt :  ; class : button ; style : vertical-align:middle;width:77px;height:22px; ;
+      div :: style : padding-left:23px; ;
+       a :: href : /index.php?page=Student.Register ;
+       br
+       a :: href : /index.php?page=Student.ParolaRecuperare ;
+     div :: style : margin:20px 0 0 50px; ;
+      a :: href : /index.php?page=Home ;
+      br
+      a :: href : /index.php?page=Informatii&amp;ActiveViewID=tab_infogen ;
+      br
+      a :: href : /index.php?page=Contact ;
+      br
+      a :: href : /index.php?page=Termeni ;
+      br
+    div :: id : content ;
+     div :: class : linkInstructiuni ;
+     div :: id : ctl0_content_TPinformatii ; class : tab-panel ;
+      div :: id : ctl0_content_TVinfogen_0 ; class : tab-active ;
+       a :: href : javascript:// ;
+      div :: id : ctl0_content_TVinfogen ; class : tab-view ; style : width:600px;font-size:14px;line-height:170%; ;
+       br
+       h2
+       br
+       b
+        span :: class : red mare ;
+       br
+       br
+       ul
+        li
+        li
+         a :: href : /index.php?page=Student.ParolaRecuperare ;
+       br
+       br
+       ul
+        li
+         a :: href : /index.php?page=Informatii&amp;ActiveViewID=TVfaq ;
+        li
+         a :: href : /index.php?page=Contact ;
+   div :: id : clearcopyr ;
+   div :: id : copyr ; class : sidebar ;
+    a :: href : http://www.upb.ro/ ;
+    br
+    a :: href : http://www.pradosoft.com/ ;
+   div :: style : visibility:hidden; ;
+    input :: type : hidden ; name : PRADO_PAGESTATE ; id : PRADO_PAGESTATE ; value : eJwFwYENwCAMA7BfOGAiQNOKXVMgPLD/pdl12cojY6OL6Lo3b90eISVlSmwi9U3YLCBqwPrwh6O18v5FnBDd ;
+    input :: type : hidden ; name : PRADO_POSTBACK_TARGET ; id : PRADO_POSTBACK_TARGET ; value :  ;
+    input :: type : hidden ; name : PRADO_POSTBACK_PARAMETER ; id : PRADO_POSTBACK_PARAMETER ; value :  ;
+    input :: type : hidden ; name : ctl0_content_TPinformatii_1 ; id : ctl0_content_TPinformatii_1 ; value : 0 ;
+   script :: type : text/javascript ; src : /assets/35027966/min/prado/validator/validation3.js ; xml:space : preserve ;
+   script :: type : text/javascript ; src : /assets/35027966/min/prado/controls/tabpanel.js ; xml:space : preserve ;
+   script :: type : text/javascript ; xml:space : preserve ;

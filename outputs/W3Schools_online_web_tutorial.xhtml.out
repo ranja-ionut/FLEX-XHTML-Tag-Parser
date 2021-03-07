@@ -1,0 +1,682 @@
+html :: xmlns : http://www.w3.org/1999/xhtml ; lang : en-US ;
+ head
+  title
+  meta :: content :  ;
+  meta :: name : viewport ; content : width=device-width, initial-scale=1 ;
+  meta :: name : Keywords ; content : HTML,CSS,JavaScript,DOM,jQuery,PHP,SQL,XML,Python,Java,Bootstrap,Web,W3CSS,W3C,tutorials,programming,development,training,learning,quiz,primer,lessons,reference,examples,source code,colors,demos,tips,w3c ;
+  link :: rel : icon ; href : /favicon.ico ; type : image/x-icon ;
+  link :: rel : stylesheet ; href : lib/w3schools23.css ;
+  script :: type : text/javascript ; xml:space : preserve ;
+  style :: type : text/css ; xml:space : preserve ;
+  script :: src : //cdn.snigelweb.com/sncmp/latest/sncmp_stub.min.js ; type : text/javascript ; xml:space : preserve ;
+  style :: type : text/css ; xml:space : preserve ;
+  script :: type : text/javascript ; xml:space : preserve ;
+  script :: type : text/javascript ; src : //cdn.snigelweb.com/pub/w3schools.com/snhb-loader.min.js ; xml:space : preserve ;
+ body :: style : position:relative;min-height:100%; ;
+  div :: class : w3-container top ; style : padding-top:20px; ;
+   a :: class : w3schools-logo notranslate ; style : position:absolute; ; href : //www.w3schools.com ;
+    span :: class : dotcom ;
+   div :: id : loginactioncontainer ; class : w3-right ; style : width:80px;height:50px; ;
+    div :: id : mypagediv ;
+    button :: id : w3loginbtn ; style : border:none;display:none;cursor:pointer ; class : login w3-right w3-hover-greener ; onclick : w3_open_nav("login") ;
+   div :: id : theworldsgreatest ; class : w3-right w3-hide-medium w3-hide-small w3-wide toptext ; style : line-height: 50px;margin-right:20px;font-family:'Segoe UI',Arial,sans-serif ;
+  div :: style : display:none;position:absolute;z-index:6;right:60px;height:57px;padding-top:12px;padding-right:20px;background-color:#4CAF50; ; id : googleSearch ;
+   div :: class : gcse-search ;
+  div :: style : display:none;position:absolute;z-index:5;right:120px;height:57px;background-color:#4CAF50;text-align:right;padding-top:15px; ; id : google_translate_element ;
+  div :: class : w3-bar w3-theme w3-card-2 w3-wide notranslate ;
+   a :: class : w3-bar-item w3-button w3-hover-white w3-padding-16 hidesm ; href : javascript:void(0) ; onclick : w3_open() ;
+    i :: class : fa ;
+   a :: class : w3-bar-item w3-button barex w3-hover-white w3-padding-16 ; href : javascript:void(0) ; onclick : w3_open_nav('tutorials') ; id : navbtn_tutorials ;
+    i :: class : fa fa-caret-down ;
+    i :: class : fa fa-caret-up ; style : display:none ;
+   a :: class : w3-bar-item w3-button barex w3-hover-white w3-padding-16 ; href : javascript:void(0) ; onclick : w3_open_nav('references') ; id : navbtn_references ;
+    i :: class : fa fa-caret-down ;
+    i :: class : fa fa-caret-up ; style : display:none ;
+   a :: class : w3-bar-item w3-button barex w3-hover-white w3-padding-16 ; href : javascript:void(0) ; onclick : w3_open_nav('examples') ; id : navbtn_examples ;
+    i :: class : fa fa-caret-down ;
+    i :: class : fa fa-caret-up ; style : display:none ;
+   a :: class : w3-bar-item w3-button barex w3-hover-white w3-padding-16 w3-hide-medium w3-hide-small ; href : javascript:void(0) ; onclick : w3_open_nav('exercises') ; id : navbtn_exercises ;
+    i :: class : fa fa-caret-down ;
+    i :: class : fa fa-caret-up ; style : display:none ;
+   a :: class : w3-bar-item w3-button barex w3-hover-white w3-padding-16 w3-hide-medium w3-hide-small ; href : /cert/default.asp ; id : cert_navbtn ;
+   div :: class : w3-right ;
+    a :: class : w3-bar-item w3-button w3-hover-white w3-padding-16 w3-right ; href : javascript:void(0) ; onclick : open_search(this) ; title : Search W3Schools ;
+     i :: class : fa ;
+    a :: class : w3-bar-item w3-button w3-hover-white w3-padding-16 w3-right ; href : javascript:void(0) ; onclick : open_translate(this) ; title : Translate W3Schools ;
+     i :: class : fa ;
+    a :: class : w3-bar-item w3-button w3-hover-white w3-padding-16 w3-right w3-hide-small ; href : javascript:void(0) ; onclick : changecodetheme(this) ; title : Toggle Dark Code ;
+     i :: class : fa ;
+    a :: class : w3-bar-item w3-button w3-hover-white w3-padding-16 w3-right topnav-some w3-hide ; target : _blank ; href : https://www.linkedin.com/company/w3schools.com/ ; title : W3Schools on LinkedIn ;
+     i :: class : fa ;
+    a :: class : w3-bar-item w3-button w3-hover-white w3-padding-16 w3-right topnav-some w3-hide ; target : _blank ; href : https://www.instagram.com/w3schools.com_official/ ; title : W3Schools on Instagram ;
+     i :: class : fa ;
+    a :: class : w3-bar-item w3-button w3-hover-white w3-padding-16 w3-right topnav-some w3-hide ; target : _blank ; href : https://www.facebook.com/w3schoolscom/ ; title : W3Schools on Facebook ;
+     i :: class : fa ;
+  div :: class : w3-bar-block ;
+   div :: class : w3-container ;
+    h4 :: class : w3-margin-top ;
+   a :: class : w3-bar-item w3-button ; href : /html/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /css/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /bootstrap/bootstrap_ver.asp ;
+   a :: class : w3-bar-item w3-button ; href : /w3css/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /colors/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /icons/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /graphics/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /howto/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /sass/default.php ;
+   div :: class : w3-container ;
+    h4 :: class : w3-margin-top ;
+   a :: class : w3-bar-item w3-button ; href : /js/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /jquery/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /react/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /angular/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /js/js_json_intro.asp ;
+   a :: class : w3-bar-item w3-button ; href : /js/js_ajax_intro.asp ;
+   a :: class : w3-bar-item w3-button ; href : /js/js_htmldom.asp ;
+   a :: class : w3-bar-item w3-button ; href : /appml/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /w3js/default.asp ;
+   div :: class : w3-container ;
+    h4 :: class : w3-margin-top ;
+   a :: class : w3-bar-item w3-button ; href : /sql/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /php/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /asp/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /nodejs/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /nodejs/nodejs_raspberrypi.asp ;
+   div :: class : w3-container ;
+    h4 :: class : w3-margin-top ;
+   a :: class : w3-bar-item w3-button ; href : /python/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /java/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /cpp/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /cs/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /r/default.asp ;
+   div :: class : w3-container ;
+    h4 :: class : w3-margin-top ;
+   a :: class : w3-bar-item w3-button ; href : /ai/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /python/python_ml_getting_started.asp ;
+   a :: class : w3-bar-item w3-button ; href : /datascience/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /python/pandas_tutorial.asp ;
+   div :: class : w3-container ;
+    h4 :: class : w3-margin-top ;
+   a :: class : w3-bar-item w3-button ; href : /w3css/w3css_templates.asp ;
+   a :: class : w3-bar-item w3-button ; href : /browsers/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /cert/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /tryit/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /whatis/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /typingspeed/default.asp ;
+   div :: class : w3-container ;
+    h4 :: class : w3-margin-top ;
+   a :: class : w3-bar-item w3-button ; href : /xml/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /xml/ajax_intro.asp ;
+   a :: class : w3-bar-item w3-button ; href : /xml/dom_intro.asp ;
+   a :: class : w3-bar-item w3-button ; href : /xml/xml_dtd_intro.asp ;
+   a :: class : w3-bar-item w3-button ; href : /xml/schema_intro.asp ;
+   a :: class : w3-bar-item w3-button ; href : /xml/xsl_intro.asp ;
+   a :: class : w3-bar-item w3-button ; href : /xml/xpath_intro.asp ;
+   a :: class : w3-bar-item w3-button ; href : /xml/xquery_intro.asp ;
+   div :: class : w3-container ;
+    h4 :: class : w3-margin-top ;
+   a :: class : w3-bar-item w3-button ; href : /tags/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /cssref/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /jsref/default.asp ;
+   a :: class : w3-bar-item w3-button ; href : /sql/sql_ref_keywords.asp ;
+   a :: class : w3-bar-item w3-button ; href : /php/php_ref_overview.asp ;
+   a :: class : w3-bar-item w3-button ; href : /jquery/jquery_ref_overview.asp ;
+   a :: class : w3-bar-item w3-button ; href : /python/python_reference.asp ;
+   a :: class : w3-bar-item w3-button ; href : /bootstrap/bootstrap_ref_all_classes.asp ;
+   a :: class : w3-bar-item w3-button ; href : /bootstrap4/bootstrap_ref_all_classes.asp ;
+   a :: class : w3-bar-item w3-button ; href : /w3css/w3css_references.asp ;
+   a :: class : w3-bar-item w3-button ; href : /java/java_ref_keywords.asp ;
+   a :: class : w3-bar-item w3-button ; href : /angular/angular_ref_directives.asp ;
+   a :: class : w3-bar-item w3-button ; href : /sass/sass_functions_string.php ;
+   a :: class : w3-bar-item w3-button ; href : /charsets/default.asp ;
+   div :: class : w3-container ;
+    h4 :: class : w3-margin-top ;
+   a :: class : w3-bar-item w3-button ; href : /html/html_exercises.asp ;
+   a :: class : w3-bar-item w3-button ; href : /css/css_exercises.asp ;
+   a :: class : w3-bar-item w3-button ; href : /js/js_exercises.asp ;
+   a :: class : w3-bar-item w3-button ; href : /sql/sql_exercises.asp ;
+   a :: class : w3-bar-item w3-button ; href : /php/php_exercises.asp ;
+   a :: class : w3-bar-item w3-button ; href : /python/python_exercises.asp ;
+   a :: class : w3-bar-item w3-button ; href : /java/java_exercises.asp ;
+   a :: class : w3-bar-item w3-button ; href : /cpp/cpp_exercises.asp ;
+   a :: class : w3-bar-item w3-button ; href : /cs/cs_exercises.asp ;
+   a :: class : w3-bar-item w3-button ; href : /bootstrap/bootstrap_exercises.asp ;
+  div :: id : myAccordion ; class : w3-card-2 w3-light-grey w3-center w3-hide-large ; style : display:none;cursor:default ;
+   a :: href : javascript:void(0) ; onclick : w3_close() ; class : w3-button w3-xlarge w3-right ;
+   br
+   div :: class : w3-container w3-padding-32 ;
+    a :: class : w3-button w3-block w3-large w3-wide ; onclick : open_xs_menu('tutorials'); ; href : javascript:void(0); ;
+     i :: class : fa fa-caret-down ;
+    div :: id : sectionxs_tutorials ; class : w3-white w3-show ;
+    a :: class : w3-button w3-block w3-large w3-wide ; onclick : open_xs_menu('references') ; href : javascript:void(0); ;
+     i :: class : fa fa-caret-down ;
+    div :: id : sectionxs_references ; class : w3-white w3-show ;
+    a :: class : w3-button w3-block w3-large w3-wide ; onclick : open_xs_menu('examples') ; href : javascript:void(0); ;
+     i :: class : fa fa-caret-down ;
+    div :: id : sectionxs_examples ; class : w3-white w3-show ;
+    a :: class : w3-button w3-block w3-large w3-wide ; onclick : open_xs_menu('exercises') ; href : javascript:void(0); ;
+     i :: class : fa fa-caret-down ;
+    div :: id : sectionxs_exercises ; class : w3-white w3-show ;
+    a :: class : w3-button w3-block w3-large w3-wide ; href : /cert/default.asp ;
+    a :: class : w3-button w3-block w3-large w3-wide ; href : https://shop.w3schools.com ; target : _blank ;
+  span :: onclick : w3_close_nav('tutorials') ; class : w3-button w3-xlarge w3-display-topright barex ;
+  br
+  div :: class : w3-row-padding w3-bar-block ;
+   div :: class : w3-col l3 m6 ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /html/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /css/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /bootstrap/bootstrap_ver.asp ;
+    a :: class : w3-bar-item w3-button ; href : /w3css/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /colors/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /icons/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /graphics/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /graphics/svg_intro.asp ;
+    a :: class : w3-bar-item w3-button ; href : /graphics/canvas_intro.asp ;
+    a :: class : w3-bar-item w3-button ; href : /howto/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /sass/default.php ;
+    div :: class : w3-hide-large w3-hide-small ;
+     h3 :: class : w3-margin-top ;
+     a :: class : w3-bar-item w3-button ; href : /xml/default.asp ;
+     a :: class : w3-bar-item w3-button ; href : /xml/ajax_intro.asp ;
+     a :: class : w3-bar-item w3-button ; href : /xml/dom_intro.asp ;
+     a :: class : w3-bar-item w3-button ; href : /xml/xml_dtd_intro.asp ;
+     a :: class : w3-bar-item w3-button ; href : /xml/schema_intro.asp ;
+     a :: class : w3-bar-item w3-button ; href : /xml/xsl_intro.asp ;
+     a :: class : w3-bar-item w3-button ; href : /xml/xpath_intro.asp ;
+     a :: class : w3-bar-item w3-button ; href : /xml/xquery_intro.asp ;
+   div :: class : w3-col l3 m6 ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /js/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /jquery/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /react/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /angular/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /js/js_json_intro.asp ;
+    a :: class : w3-bar-item w3-button ; href : /js/js_ajax_intro.asp ;
+    a :: class : w3-bar-item w3-button ; href : /appml/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /w3js/default.asp ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /python/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /java/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /cpp/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /cs/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /r/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /python/python_ml_getting_started.asp ;
+    a :: class : w3-bar-item w3-button ; href : /datascience/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /python/pandas_tutorial.asp ;
+   div :: class : w3-col l3 m6 ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /sql/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /php/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /asp/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /nodejs/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /nodejs/nodejs_raspberrypi.asp ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /w3css/w3css_templates.asp ;
+    a :: class : w3-bar-item w3-button ; href : /browsers/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /cert/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /tryit/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /whatis/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /typingspeed/default.asp ;
+   div :: class : w3-col l3 m6 w3-hide-medium ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /xml/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /xml/ajax_intro.asp ;
+    a :: class : w3-bar-item w3-button ; href : /xml/dom_intro.asp ;
+    a :: class : w3-bar-item w3-button ; href : /xml/xml_dtd_intro.asp ;
+    a :: class : w3-bar-item w3-button ; href : /xml/schema_intro.asp ;
+    a :: class : w3-bar-item w3-button ; href : /xml/xsl_intro.asp ;
+    a :: class : w3-bar-item w3-button ; href : /xml/xpath_intro.asp ;
+    a :: class : w3-bar-item w3-button ; href : /xml/xquery_intro.asp ;
+  br :: class : hidesm ;
+  span :: onclick : w3_close_nav('references') ; class : w3-button w3-xlarge w3-display-topright barex ;
+  br
+  div :: class : w3-row-padding w3-bar-block ;
+   div :: class : w3-col l3 m6 ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /tags/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /tags/ref_html_browsersupport.asp ;
+    a :: class : w3-bar-item w3-button ; href : /tags/ref_eventattributes.asp ;
+    a :: class : w3-bar-item w3-button ; href : /colors/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /tags/ref_attributes.asp ;
+    a :: class : w3-bar-item w3-button ; href : /tags/ref_canvas.asp ;
+    a :: class : w3-bar-item w3-button ; href : /graphics/svg_reference.asp ;
+    a :: class : w3-bar-item w3-button ; href : /graphics/google_maps_reference.asp ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /cssref/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /cssref/css3_browsersupport.asp ;
+    a :: class : w3-bar-item w3-button ; href : /cssref/css_selectors.asp ;
+    a :: class : w3-bar-item w3-button ; href : /bootstrap/bootstrap_ref_all_classes.asp ;
+    a :: class : w3-bar-item w3-button ; href : /bootstrap4/bootstrap_ref_all_classes.asp ;
+    a :: class : w3-bar-item w3-button ; href : /w3css/w3css_references.asp ;
+    a :: class : w3-bar-item w3-button ; href : /icons/icons_reference.asp ;
+    a :: class : w3-bar-item w3-button ; href : /sass/sass_functions_string.php ;
+   div :: class : w3-col l3 m6 ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /jsref/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /jsref/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /jquery/jquery_ref_overview.asp ;
+    a :: class : w3-bar-item w3-button ; href : /angular/angular_ref_directives.asp ;
+    a :: class : w3-bar-item w3-button ; href : /appml/appml_reference.asp ;
+    a :: class : w3-bar-item w3-button ; href : /w3js/w3js_references.asp ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /python/python_reference.asp ;
+    a :: class : w3-bar-item w3-button ; href : /java/java_ref_keywords.asp ;
+   div :: class : w3-col l3 m6 ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /sql/sql_ref_keywords.asp ;
+    a :: class : w3-bar-item w3-button ; href : /php/php_ref_overview.asp ;
+    a :: class : w3-bar-item w3-button ; href : /asp/asp_ref_response.asp ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /xml/dom_nodetype.asp ;
+    a :: class : w3-bar-item w3-button ; href : /xml/dom_http.asp ;
+    a :: class : w3-bar-item w3-button ; href : /xml/xsl_elementref.asp ;
+    a :: class : w3-bar-item w3-button ; href : /xml/schema_elements_ref.asp ;
+   div :: class : w3-col l3 m6 ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /charsets/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /charsets/ref_html_ascii.asp ;
+    a :: class : w3-bar-item w3-button ; href : /charsets/ref_html_ansi.asp ;
+    a :: class : w3-bar-item w3-button ; href : /charsets/ref_html_ansi.asp ;
+    a :: class : w3-bar-item w3-button ; href : /charsets/ref_html_8859.asp ;
+    a :: class : w3-bar-item w3-button ; href : /charsets/ref_html_symbols.asp ;
+    a :: class : w3-bar-item w3-button ; href : /charsets/ref_html_utf8.asp ;
+  br :: class : hidesm ;
+  span :: onclick : w3_close_nav('examples') ; class : w3-button w3-xlarge w3-display-topright barex ;
+  br
+  div :: class : w3-row-padding w3-bar-block ;
+   div :: class : w3-col l3 m6 ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /html/html_examples.asp ;
+    a :: class : w3-bar-item w3-button ; href : /css/css_examples.asp ;
+    a :: class : w3-bar-item w3-button ; href : /w3css/w3css_examples.asp ;
+    a :: class : w3-bar-item w3-button ; href : /bootstrap/bootstrap_examples.asp ;
+    a :: class : w3-bar-item w3-button ; href : /howto/default.asp ;
+    a :: class : w3-bar-item w3-button ; href : /graphics/svg_examples.asp ;
+    a :: class : w3-bar-item w3-button ; href : /w3css/w3css_templates.asp ;
+    div :: class : w3-hide-large w3-hide-small ;
+     h3 :: class : w3-margin-top ;
+     a :: class : w3-bar-item w3-button ; href : /html/html_quiz.asp ; target : _top ;
+     a :: class : w3-bar-item w3-button ; href : /css/css_quiz.asp ; target : _top ;
+     a :: class : w3-bar-item w3-button ; href : /js/js_quiz.asp ; target : _top ;
+     a :: class : w3-bar-item w3-button ; href : /sql/sql_quiz.asp ; target : _top ;
+     a :: class : w3-bar-item w3-button ; href : /php/php_quiz.asp ; target : _top ;
+     a :: class : w3-bar-item w3-button ; href : /python/python_quiz.asp ; target : _top ;
+     a :: class : w3-bar-item w3-button ; href : /jquery/jquery_quiz.asp ; target : _top ;
+     a :: class : w3-bar-item w3-button ; href : /bootstrap/bootstrap_quiz.asp ; target : _top ;
+     a :: class : w3-bar-item w3-button ; href : /java/java_quiz.asp ; target : _top ;
+     a :: class : w3-bar-item w3-button ; href : /cpp/cpp_quiz.asp ; target : _top ;
+     a :: class : w3-bar-item w3-button ; href : /cs/cs_quiz.asp ; target : _top ;
+     a :: class : w3-bar-item w3-button ; href : /xml/xml_quiz.asp ; target : _top ;
+   div :: class : w3-col l3 m6 ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /js/js_examples.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /js/js_dom_examples.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /jquery/jquery_examples.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /angular/angular_examples.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /js/js_ajax_examples.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /w3js/w3js_examples.asp ; target : _top ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /python/python_examples.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /java/java_examples.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /cpp/cpp_examples.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /cs/cs_examples.asp ; target : _top ;
+   div :: class : w3-col l3 m6 ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /sql/sql_examples.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /php/php_examples.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /asp/asp_examples.asp ; target : _top ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /xml/xml_examples.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /xml/xsl_examples.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /xml/xpath_examples.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /xml/schema_example.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /xml/ajax_examples.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /graphics/svg_examples.asp ; target : _top ;
+   div :: class : w3-col l3 m6 w3-hide-medium ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /html/html_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /css/css_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /js/js_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /sql/sql_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /php/php_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /python/python_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /jquery/jquery_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /bootstrap/bootstrap_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /java/java_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /cpp/cpp_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /cs/cs_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /xml/xml_quiz.asp ; target : _top ;
+  br :: class : hidesm ;
+  span :: onclick : w3_close_nav('exercises') ; class : w3-button w3-xlarge w3-display-topright barex ;
+  br
+  div :: class : w3-row-padding w3-bar-block ;
+   div :: class : w3-col l4 m12 ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /html/html_exercises.asp ;
+    a :: class : w3-bar-item w3-button ; href : /css/css_exercises.asp ;
+    a :: class : w3-bar-item w3-button ; href : /js/js_exercises.asp ;
+    a :: class : w3-bar-item w3-button ; href : /sql/sql_exercises.asp ;
+    a :: class : w3-bar-item w3-button ; href : /php/php_exercises.asp ;
+    a :: class : w3-bar-item w3-button ; href : /python/python_exercises.asp ;
+    a :: class : w3-bar-item w3-button ; href : /jquery/jquery_exercises.asp ;
+    a :: class : w3-bar-item w3-button ; href : /java/java_exercises.asp ;
+    a :: class : w3-bar-item w3-button ; href : /bootstrap/bootstrap_exercises.asp ;
+    a :: class : w3-bar-item w3-button ; href : /cpp/cpp_exercises.asp ;
+    a :: class : w3-bar-item w3-button ; href : /cs/cs_exercises.asp ;
+   div :: class : w3-col l4 m12 ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /html/html_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /css/css_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /js/js_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /sql/sql_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /php/php_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /python/python_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /jquery/jquery_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /bootstrap/bootstrap_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /java/java_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /cpp/cpp_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /cs/cs_quiz.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /xml/xml_quiz.asp ; target : _top ;
+   div :: class : w3-col l4 m12 ;
+    h3 :: class : w3-margin-top ;
+    a :: class : w3-bar-item w3-button ; href : /cert/cert_html_new.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /cert/cert_css.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /cert/cert_javascript.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /cert/cert_sql.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /cert/cert_php.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /cert/cert_python.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /cert/cert_bootstrap.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /cert/cert_jquery.asp ; target : _top ;
+    a :: class : w3-bar-item w3-button ; href : /cert/cert_xml.asp ; target : _top ;
+  br :: class : hidesm ;
+  span :: onclick : w3_close_nav("login") ; class : w3-button w3-xlarge w3-right w3-padding ; style : position:absolute;right:0;font-weight:bold; ;
+  div :: class : loginmodaldiv ; style : padding:48px 16px 1px 16px;text-align:center; ;
+   h2
+   div :: style : font-size:15px ;
+    a :: href : https://mypage.w3schools.com/mypage/index.php ;
+   div :: class : loginmodalform ;
+    form :: id : loginform ; name : loginform ; method : post ; action :  ;
+     div
+      label
+     div
+      input :: name : n ; onfocus : login_inputGetsFocus(this) ;
+     br
+     div
+      label
+     div
+      input :: type : password ; name : p ; onfocus : login_inputGetsFocus(this) ;
+     br
+     div :: id : loginerrordiv ; style : display:none ; class : w3-text-red ;
+     div :: class : login_submit_container ;
+      button :: id : login_submit_button ; type : submit ; onclick : login_user(event) ;
+     div :: style : overflow:auto;margin-top:10px;font-size:15px; ;
+      div :: class : login_newusertext ;
+       a :: href : https://mypage.w3schools.com/mypage/login.php?logintyp=1 ; target : _blank ;
+      div :: class : login_forgotpasswordtext ;
+       a :: href : https://mypage.w3schools.com/mypage/forgot_password.php ;
+  br
+  div :: class : w3-main ; id : main ;
+   div :: class : w3-row w3-margin-bottom ;
+    div :: class : w3-col l6 w3-center ; style : padding:3% ;
+     h1
+     p :: class : w3-xlarge w3-text-dark-grey ;
+     a :: href : /html/default.asp ; class : w3-button w3-dark-grey ;
+     a :: href : /tags/default.asp ; class : w3-button w3-dark-grey ;
+    div :: class : w3-col l6 ; style : padding:3% ;
+     div :: class : w3-hide-small w3-light-grey w3-card-2 ; style : padding:16px; ;
+      h3
+      div :: class : w3-code htmlHigh notranslate w3-border-green ;
+       br
+       br
+       br
+       br
+       br
+       br
+       br
+       br
+       br
+      a :: href : /html/tryit.asp?filename=tryhtml_default ; target : _blank ; class : w3-button w3-theme w3-hover-green w3-hover-shadow ;
+   div :: class : w3-row w3-light-grey w3-hide-medium w3-hide-small ;
+    div :: class : w3-col l6 ; style : padding-top:40px;padding:3%; ;
+     h3
+     div :: class : w3-code cssHigh notranslate w3-card-2 w3-border-green ;
+      br
+      br
+      br
+      br
+      br
+      br
+      br
+      br
+      br
+      br
+      br
+      br
+     a :: href : /css/tryit.asp?filename=trycss_default ; target : _blank ; class : w3-button w3-theme w3-hover-green w3-hover-shadow ;
+    div :: class : w3-col l6 w3-center ; style : padding:3% ;
+     h1
+     p :: class : w3-xlarge ;
+     a :: href : /css/default.asp ; class : w3-button w3-dark-grey ;
+     a :: href : /cssref/default.asp ; class : w3-button w3-dark-grey ;
+   div :: class : w3-row w3-light-grey w3-hide-large ; style : padding-bottom:30px ;
+    div :: class : w3-col l6 w3-center ; style : padding:3% ;
+     h1
+     p :: class : w3-xlarge ;
+     a :: href : /css/default.asp ; class : w3-button w3-dark-grey ;
+     a :: href : /cssref/default.asp ; class : w3-button w3-dark-grey ;
+    div :: class : w3-col l6 w3-hide-small ; style : padding-top:40px;padding:3%; ;
+     h3
+     div :: class : w3-code cssHigh notranslate w3-card-2 w3-border-green ;
+      br
+      br
+      br
+      br
+      br
+      br
+      br
+      br
+      br
+      br
+      br
+      br
+     a :: href : /css/tryit.asp?filename=trycss_default ; target : _blank ; class : w3-button w3-theme w3-hover-green w3-hover-shadow ;
+   div :: class : w3-row ;
+    div :: class : w3-col l6 w3-center ; style : padding:3% ;
+     h1 :: class : w3-jumbo ;
+     p :: class : w3-xlarge w3-text-dark-grey ;
+     a :: href : /js/default.asp ; class : w3-button w3-dark-grey ;
+     a :: href : /jsref/default.asp ; class : w3-button w3-dark-grey ;
+    div :: class : w3-col l6 ; style : padding:3% ;
+     div :: class : w3-hide-small w3-card-2 w3-light-grey ; style : padding:16px; ;
+      h3
+      div :: class : w3-code notranslate w3-card-2 w3-border-green ;
+       div :: class : htmlHigh ;
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+        br
+      a :: href : /js/tryit.asp?filename=tryjs_default ; target : _blank ; class : w3-button w3-theme w3-hover-green w3-hover-shadow ;
+   div :: class : w3-row w3-light-grey w3-hide-medium w3-hide-small ;
+    div :: class : w3-col l6 ; style : padding-top:40px;padding:3%;padding-bottom:45px ;
+     h3
+     div :: class : w3-code sqlHigh notranslate w3-card-2 w3-border-green ; style : height:180px ;
+      br
+     a :: href : /sql/trysql.asp?filename=trysql_select_where ; target : _blank ; class : w3-button w3-theme w3-hover-green w3-hover-shadow ;
+    div :: class : w3-col l6 w3-center ; style : padding:3% ;
+     h1
+     p :: class : w3-xlarge ;
+     a :: href : /sql/default.asp ; class : w3-button w3-dark-grey ;
+     a :: href : /sql/sql_ref_keywords.asp ; class : w3-button w3-dark-grey ;
+   div :: class : w3-row w3-light-grey w3-hide-large ; style : padding-bottom:30px;margin-top:40px ;
+    div :: class : w3-col l6 w3-center ; style : padding:3% ;
+     h1
+     p :: class : w3-xlarge ;
+     a :: href : /sql/default.asp ; class : w3-button w3-dark-grey ;
+     a :: href : /sql/sql_ref_keywords.asp ; class : w3-button w3-dark-grey ;
+    div :: class : w3-col l6 w3-hide-small ; style : padding-top:40px;padding:3%; ;
+     h3
+     div :: class : w3-code sqlHigh notranslate w3-card-2 w3-border-green ; style : height:100px ;
+      br
+     a :: href : /sql/trysql.asp?filename=trysql_select_where ; target : _blank ; class : w3-button w3-theme w3-hover-green w3-hover-shadow ;
+   div :: class : w3-row w3-dark-grey w3-padding-32 ;
+    div :: class : w3-col l6 w3-center ; style : padding:2% 3%; ;
+     div :: class : w3-card-2 w3-white w3-padding ; style : padding-bottom:24px!important ;
+      h2 :: class : w3-xxlarge ;
+      div :: style : height:70px; ;
+       h4 :: class : w3-text-dark-grey ;
+      a :: href : /python/default.asp ; class : w3-button w3-dark-grey ;
+    div :: class : w3-col l6 w3-center ; style : padding:2% 3%; ;
+     div :: class : w3-card-2 w3-white w3-padding ; style : padding-bottom:24px!important ;
+      h2 :: class : w3-xxlarge ;
+      div :: style : height:70px; ;
+       h4 :: class : w3-text-dark-grey ;
+      a :: href : /php/default.asp ; class : w3-button w3-dark-grey ;
+    div :: class : w3-col l6 w3-center ; style : padding:2% 3%; ;
+     div :: class : w3-card-2 w3-white w3-padding ; style : padding-bottom:24px!important ;
+      h2 :: class : w3-xxlarge ;
+      div :: style : height:70px; ;
+       h4 :: class : w3-text-dark-grey ;
+      a :: href : /jquery/default.asp ; class : w3-button w3-dark-grey ;
+    div :: class : w3-col l6 w3-center ; style : padding:2% 3%; ;
+     div :: class : w3-card-2 w3-white w3-padding ; style : padding-bottom:24px!important ;
+      h2 :: class : w3-xxlarge ;
+      div :: style : height:70px; ;
+       h4 :: class : w3-text-dark-grey ;
+      a :: href : /java/default.asp ; class : w3-button w3-dark-grey ;
+   div :: class : w3-row w3-white ; style : padding-top:40px;padding-bottom:40px ;
+    div :: class : w3-col l4 w3-center ; style : padding:3%; ;
+     h2 :: class : w3-xxlarge ;
+     h4 :: class : w3-text-dark-grey ;
+     a :: href : /w3css/default.asp ; class : w3-button w3-dark-grey ;
+    div :: class : w3-col l4 w3-center ; style : padding:3%; ;
+     h2 :: class : w3-xxlarge ;
+     a :: href : /colors/colors_picker.asp ; class : w3-hover-opacity ;
+      img :: style : width:150px;height:128px;margin-top:16px; ; src : /images/colorpicker.png ; alt : Colorpicker ;
+    div :: class : w3-col l4 w3-center ; style : padding:3%; ;
+     h2 :: class : w3-xxlarge ;
+     h4 :: class : w3-text-dark-grey ;
+     a :: href : /bootstrap/default.asp ; class : w3-button w3-dark-grey ;
+     a :: href : /bootstrap4/default.asp ; class : w3-button w3-dark-grey ;
+   div :: class : w3-dark-grey w3-center w3-padding-large w3-padding-48 ; style : padding-bottom:68px!important ;
+    h2 :: class : w3-xxlarge ;
+    h4
+    div :: class : w3-row-padding w3-content ;
+     div :: class : w3-third ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /html/html_exercises.asp ;
+     div :: class : w3-third ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /css/css_exercises.asp ;
+     div :: class : w3-third w3-hide-large w3-hide-small ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /js/js_exercises.asp ;
+     div :: class : w3-third w3-hide-medium ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /js/js_exercises.asp ;
+     div :: class : w3-third w3-hide-medium w3-hide-large ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /sql/sql_exercises.asp ;
+     div :: class : w3-third w3-hide-medium w3-hide-large ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /python/python_exercises.asp ;
+    div :: class : w3-row-padding w3-content w3-hide-medium w3-hide-small ;
+     div :: class : w3-col ; style : width:14.28% ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /sql/sql_exercises.asp ;
+     div :: class : w3-col ; style : width:14.28% ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /python/python_exercises.asp ;
+     div :: class : w3-col ; style : width:14.28% ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /php/php_exercises.asp ;
+     div :: class : w3-col ; style : width:14.28% ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /jquery/jquery_exercises.asp ;
+     div :: class : w3-col ; style : width:14.28% ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /java/java_exercises.asp ;
+     div :: class : w3-col ; style : width:14.28% ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /cpp/cpp_exercises.asp ;
+     div :: class : w3-col ; style : width:14.28% ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /cs/cs_exercises.asp ;
+    div :: class : w3-row-padding w3-content w3-hide-small w3-hide-large ;
+     div :: class : w3-col ; style : width:20% ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /sql/sql_exercises.asp ;
+     div :: class : w3-col ; style : width:20% ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /python/python_exercises.asp ;
+     div :: class : w3-col ; style : width:20% ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /php/php_exercises.asp ;
+     div :: class : w3-col ; style : width:20% ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /jquery/jquery_exercises.asp ;
+     div :: class : w3-col ; style : width:20% ;
+      p
+       a :: class : w3-btn w3-green w3-block w3-padding-16 ; href : /java/java_exercises.asp ;
+   div :: class : w3-light-grey w3-center w3-padding-large w3-padding-32 ;
+    h2 :: class : w3-xxlarge ;
+    h4 :: class : w3-text-dark-grey ;
+     strong
+    div :: class : w3-content ;
+     a :: href : /w3css/w3css_templates.asp ;
+      img :: src : w3css_templates.jpg ; style : width:100%;margin:16px 0 20px 0 ; alt : W3.CSS Templates ;
+    p
+     a :: href : /w3css/w3css_templates.asp ; class : w3-button w3-dark-grey w3-padding-large w3-mobile ;
+   br
+   div :: class : w3-white w3-center w3-padding-large w3-padding-16 ; style : padding-bottom:36px!important ;
+    h2 :: class : w3-xxlarge ;
+    h4 :: class : w3-text-dark-grey ;
+    div :: class : w3-content w3-hide-device ;
+     div :: class : w3-row-padding ; style : margin:32px -16px ;
+      div :: class : w3-col l6 s12 ;
+       iframe :: src : /howto/tryhow_css_sidenav_ifr.htm ; style : width:100%;border:5px solid #ddd;height:300px ;
+      div :: class : w3-col l6 w3-hide-small w3-hide-medium ;
+       iframe :: src : /howto/tryhow_css_sidenav_ifr2.htm ; style : width:100%;border:5px solid #ddd;height:300px ;
+    p
+     a :: href : /howto/default.asp ; class : w3-button w3-dark-grey w3-padding-large w3-mobile ;
+   div :: class : w3-display-container w3-black ; id : certsection ;
+    a :: href : /cert/default.asp ; class : w3-hover-text-white ;
+     img :: src : getcertified.jpg ; style : max-width:100%;margin:auto;display:block ; alt : W3 Certificates ;
+    div :: class : certoverlay ;
+     br :: class : w3-hide-small w3-hide-medium ;
+     h2
+     h3
+    p :: class : w3-display-middle getcert ;
+     a :: href : /cert/default.asp ; class : w3-button w3-green w3-hover-white w3-padding-large ; style : font-size:17px ;
+   div :: class : w3-container w3-padding-32 ;
+    a :: class : w3-button w3-light-grey w3-hide-small w3-hide-medium w3-left ; href : /cert/default.asp ; style : font-size:16px;margin-top:-9px ;
+    a :: class : w3-button w3-light-grey w3-hide-small w3-hide-medium w3-left ; href : /quiztest/default.asp ; style : font-size:16px;margin-top:-9px;margin-left:12px ;
+    a :: class : w3-button w3-light-grey w3-hide-small w3-hide-medium w3-left ; href : /html/html_exercises.asp ; style : font-size:16px;margin-top:-9px;margin-left:12px ;
+    a :: class : w3-button w3-light-grey w3-hide-large ; href : /cert/default.asp ; style : font-size:16px;margin-bottom:16px ;
+    a :: class : w3-button w3-light-grey w3-hide-large ; href : /quiztest/default.asp ; style : font-size:16px;margin-bottom:16px; ;
+    a :: class : w3-button w3-light-grey w3-hide-large ; href : /html/html_exercises.asp ; style : font-size:16px;margin-bottom:16px; ;
+    a :: href : /forum/default.asp ; target : _blank ; class : w3-hover-text-green ; style : text-decoration:none ;
+    a :: href : /about/default.asp ; target : _top ; class : w3-hover-text-green ; style : text-decoration:none ;
+    a :: href : /forum/default.asp ; target : _blank ; class : w3-hover-text-green ; style : text-decoration:none ;
+    a :: href : /about/default.asp ; target : _top ; class : w3-hover-text-green ; style : text-decoration:none ;
+   p :: class : w3-medium ;
+    a :: href : /about/about_copyright.asp ; class : w3-hover-text-green ;
+    a :: href : /about/about_privacy.asp ; class : w3-hover-text-green ;
+    br
+    a :: href : /about/about_copyright.asp ; class : w3-hover-text-green ;
+    br
+    br
+   a :: href : javascript:void(0); ; onclick : clickFBLike() ; title : Like W3Schools on Facebook ; class : w3-hover-text-light-grey ;
+    i :: class : fa fa-thumbs-o-up w3-xxlarge ;
+   div
+    a :: class : w3-button w3-green ; href : https://shop.w3schools.com/ ; target : _blank ; style : font-size:16px;margin-bottom:16px;margin-top:32px;padding:12px 28px; ;
+   div :: id : fblikeframe ; class : w3-modal ;
+    div :: class : w3-modal-content w3-padding-64 w3-animate-zoom ; id : popupDIV ;
+  script :: type : text/javascript ; xml:space : preserve ;
+  script :: src : /lib/w3codecolor.js ; type : text/javascript ; xml:space : preserve ;
+  script :: src : https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit ; type : text/javascript ; xml:space : preserve ;
+  script :: type : text/javascript ; xml:space : preserve ;

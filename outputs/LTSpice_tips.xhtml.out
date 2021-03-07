@@ -1,0 +1,139 @@
+html :: xmlns : http://www.w3.org/1999/xhtml ; lang : en-US ;
+ head
+  meta :: content :  ;
+  meta :: name : viewport ; content : width=1100 ;
+  title
+  link :: rel : shortcut icon ; href : /wp-content/themes/bigsplash/images/favicon.ico ; type : image/x-icon ;
+  link :: rel : icon ; href : /wp-content/themes/bigsplash/images/favicon.ico ; type : image/x-icon ;
+  link :: rel : dns-prefetch ; href : //www.google.com ;
+  link :: rel : dns-prefetch ; href : //platform-api.sharethis.com ;
+  link :: rel : dns-prefetch ; href : //fonts.googleapis.com ;
+  link :: rel : dns-prefetch ; href : //s.w.org ;
+  link :: rel : alternate ; type : application/rss+xml ; title : Cooper Consulting Service &raquo; Feed ; href : https://www.cooperconsultingservice.com/feed/ ;
+  link :: rel : alternate ; type : application/rss+xml ; title : Cooper Consulting Service &raquo; Comments Feed ; href : https://www.cooperconsultingservice.com/comments/feed/ ;
+  script :: type : text/javascript ; xml:space : preserve ;
+  style :: type : text/css ; xml:space : preserve ;
+  link :: rel : stylesheet ; id : big-splash-galleries-slider-styles-group-css ; href : https://www.cooperconsultingservice.com/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/big-splash-slideshow-galleries/css/slider-styles.css,wp-content/themes/bigsplash/style.css ; type : text/css ; media : all ;
+  link :: rel : stylesheet ; id : lato-css ; href : https://fonts.googleapis.com/css?family=Lato%3A400%2C700&#038;ver=1 ; type : text/css ; media : all ;
+  script :: type : text/javascript ; src : https://www.cooperconsultingservice.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1 ; id : jquery-core-js ; xml:space : preserve ;
+  script :: type : text/javascript ; src : https://www.cooperconsultingservice.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2 ; id : jquery-migrate-js ; xml:space : preserve ;
+  script :: type : text/javascript ; src : //platform-api.sharethis.com/js/sharethis.js#product=ga ; id : googleanalytics-platform-sharethis-js ; xml:space : preserve ;
+  link :: rel : https://api.w.org/ ; href : https://www.cooperconsultingservice.com/wp-json/ ;
+  link :: rel : alternate ; type : application/json ; href : https://www.cooperconsultingservice.com/wp-json/wp/v2/posts/363 ;
+  link :: rel : EditURI ; type : application/rsd+xml ; title : RSD ; href : https://www.cooperconsultingservice.com/xmlrpc.php?rsd ;
+  link :: rel : wlwmanifest ; type : application/wlwmanifest+xml ; href : https://www.cooperconsultingservice.com/wp-includes/wlwmanifest.xml ;
+  link :: rel : canonical ; href : https://www.cooperconsultingservice.com/ltspice-tips-component-values/ ;
+  link :: rel : shortlink ; href : https://www.cooperconsultingservice.com/?p=363 ;
+  link :: rel : alternate ; type : application/json+oembed ; href : https://www.cooperconsultingservice.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cooperconsultingservice.com%2Fltspice-tips-component-values%2F ;
+  link :: rel : alternate ; type : text/xml+oembed ; href : https://www.cooperconsultingservice.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cooperconsultingservice.com%2Fltspice-tips-component-values%2F&#038;format=xml ;
+  meta :: name : google-site-verification ; content : 0jhcqAHrD-qGNUOvFcmTv78wwFi4kEXDvTZLlyUeSGo ;
+  style :: type : text/css ; xml:space : preserve ;
+  script :: type : text/javascript ; xml:space : preserve ;
+ body :: class : post-template-default single single-post postid-363 single-format-standard ;
+  div :: class : wrap ;
+   h1 :: class : site-title ;
+    a :: href : https://www.cooperconsultingservice.com/ ; title : Cooper Consulting Service ; rel : home ;
+   div :: class : phone ;
+    p
+  h1 :: class : assistive-text ;
+  div :: class : assistive-text skip-link ;
+   a :: href : #content ; title : Skip to content ;
+  div :: class : menu-menu-container ;
+   ul :: id : menu-menu ; class : menu ;
+    li :: id : menu-item-34 ; class : menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-34 ;
+     a :: href : https://www.cooperconsultingservice.com/expertise/ ;
+     ul :: class : sub-menu ;
+      li :: id : menu-item-35 ; class : menu-item menu-item-type-post_type menu-item-object-page menu-item-35 ;
+       a :: href : https://www.cooperconsultingservice.com/expertise/design-and-development/ ;
+      li :: id : menu-item-29 ; class : menu-item menu-item-type-post_type menu-item-object-page menu-item-29 ;
+       a :: href : https://www.cooperconsultingservice.com/expertise/test-and-evaluation/ ;
+      li :: id : menu-item-30 ; class : menu-item menu-item-type-post_type menu-item-object-page menu-item-30 ;
+       a :: href : https://www.cooperconsultingservice.com/expertise/options-support-and-regulatory-considerations/ ;
+    li :: id : menu-item-31 ; class : menu-item menu-item-type-post_type menu-item-object-page menu-item-31 ;
+     a :: href : https://www.cooperconsultingservice.com/projects/ ;
+    li :: id : menu-item-37 ; class : menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-37 ;
+     a :: href : https://www.cooperconsultingservice.com/about-us/ ;
+     ul :: class : sub-menu ;
+      li :: id : menu-item-286 ; class : menu-item menu-item-type-post_type menu-item-object-page menu-item-286 ;
+       a :: href : https://www.cooperconsultingservice.com/about-us/our-team/ ;
+      li :: id : menu-item-285 ; class : menu-item menu-item-type-post_type menu-item-object-page menu-item-285 ;
+       a :: href : https://www.cooperconsultingservice.com/about-us/testimonials/ ;
+    li :: id : menu-item-33 ; class : menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-33 ;
+     a :: href : https://www.cooperconsultingservice.com/news/ ;
+    li :: id : menu-item-36 ; class : menu-item menu-item-type-post_type menu-item-object-page menu-item-36 ;
+     a :: href : https://www.cooperconsultingservice.com/contact-us/ ;
+  div :: id : page ; class : hfeed site ;
+   div :: id : main ;
+    div :: id : primary ; class : site-content ;
+     div :: id : content ;
+      div :: class : entry-header ;
+       h1 :: class : entry-title ;
+      div :: class : entry-content ;
+       p
+       ul
+        li
+        li
+        li
+       p
+        span :: style : font-family: sans-serif; font-size: medium; ;
+         span :: style : line-height: normal; ;
+          a :: href : http://ltspice.linear.com/software/LTspiceGettingStartedGuide.pdf ;
+       p
+        a :: href : /wp-content/uploads/lts_prefixes.jpg ;
+         img :: class : alignnone size-full wp-image-364 ; alt : lts_prefixes ; src : /wp-content/uploads/lts_prefixes.jpg ; width : 601 ; height : 223 ;
+       p
+    div :: id : secondary ; class : widget-area ;
+     div :: class : wrap ;
+      h2
+      p
+      p :: class : button ;
+       a :: href : https://www.cooperconsultingservice.com/expertise/design-and-development/ ;
+      h2
+      p
+      p :: class : button ;
+       a :: href : https://www.cooperconsultingservice.com/expertise/options-support-and-regulatory-considerations/ ;
+      h2
+      p
+      p :: class : button ;
+       a :: href : https://www.cooperconsultingservice.com/expertise/test-and-evaluation/ ;
+  div :: class : wrap ;
+   div :: class : callouts ;
+    ul :: class : group ;
+     li :: class : news ;
+      h3
+      ul
+       li
+        a :: href : https://www.cooperconsultingservice.com/documentation-priority-for-early-stage-medtechs-part-1-user-specification-article-published/ ;
+       li
+        a :: href : https://www.cooperconsultingservice.com/understanding-prototype-development-phases-for-medical-products-article-published/ ;
+       li
+        a :: href : https://www.cooperconsultingservice.com/understanding-prototype-development-phases/ ;
+       li
+        a :: href : https://www.cooperconsultingservice.com/ieee-hcn-meeting-jan-2017/ ;
+       li
+        a :: href : https://www.cooperconsultingservice.com/ieee-hcn-general-meeting-wed-sept-28th-clayton-library-center/ ;
+     li
+      div :: class : about ; style : margin-bottom: 30px; ;
+       h3
+       p
+      div :: class : contact ;
+       h3
+       p
+     li :: class : social ;
+      a :: href : https://twitter.com/Cooper_Engineer ; target : _blank ; class : social-icon twitter ;
+      a :: href : https://www.linkedin.com/company/cooper-consulting-service/ ; target : _blank ; class : social-icon linkedin ;
+      span
+      a :: class : twitter-timeline ; href : https://twitter.com/Cooper_Engineer?ref_src=twsrc%5Etfw ;
+      script :: src : https://platform.twitter.com/widgets.js ; charset : utf-8 ; type : text/javascript ; xml:space : preserve ;
+  div :: class : site-info ;
+   div :: class : copy ;
+    p
+     a :: target : _blank ; href : https://www.cooperconsultingservice.com/wp-login.php ;
+     a :: href : https://www.cooperconsultingservice.com/sitemap/ ;
+    p
+     a :: target : _blank ; href : https://www.bigsplashwebdesign.com/web-design ;
+     a :: target : _blank ; href : https://www.bigsplashwebdesign.com ;
+  script :: type : text/javascript ; id : google-invisible-recaptcha-js-before ; xml:space : preserve ;
+  script :: type : text/javascript ; defer : defer ; src : https://www.google.com/recaptcha/api.js?onload=renderInvisibleReCaptcha&#038;render=explicit ; id : google-invisible-recaptcha-js ; xml:space : preserve ;
+  script :: type : text/javascript ; src : https://www.cooperconsultingservice.com/wp-content/plugins/bwp-minify/min/?f=wp-content/themes/bigsplash/js/scripts.js,wp-content/themes/bigsplash/js/jquery.flexslider-min.js,wp-includes/js/wp-embed.min.js ; xml:space : preserve ;
+  script :: type : text/javascript ; xml:space : preserve ;
